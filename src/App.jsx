@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import './App.css';
 
 function getRandomArbitrary(MAX, MIN) {
@@ -64,7 +64,7 @@ function App() {
       <h1>this is my vite + react app deployed to github pages 😃</h1>
       <div>
         <h2>Guess the number!</h2>
-        <h2>{randomNumber}</h2>
+
         {guesses && guesses.length > 0 && (
           <>
             <h3>Your guesses: </h3>

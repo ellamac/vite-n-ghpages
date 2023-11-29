@@ -10,6 +10,7 @@ Steps to complete:
 2. Use the Vite tool to create a web application using your favority technology: plain vanilla, React, Vue, etc. See https://vitejs.dev/guide/.
 3. Use Vite to deploy a static version of your web application, usually using the command "npm run build".
 4. Go to your repository's settings in GitHub, and open the Pages section. From there, configure that your GitHub repo's content will be published as Pages. You can also select which folder in your repo should contain the web page content.
+  (ellamac.github.io/vite-n-ghpages)
 5. Commit and push your static HTML/CSS/JS files into the repository, and check to see if you can view the application using your browser.
 
 Bonus task for more advanced developers: in step 4, create a GitHub Action that can take your Vite application, build it, and publish the files as Pages.

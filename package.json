@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "http://ellamac.github.io/vite-n-ghpages",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

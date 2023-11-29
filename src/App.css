@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+
+section {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 4px 0 lightgray;
+
+  background-color: rgb(255, 241, 243);
+}

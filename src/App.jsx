@@ -62,7 +62,7 @@ function App() {
   return (
     <main>
       <h1>this is my vite + react app deployed to github pages 😃</h1>
-      <div>
+      <section>
         <h2>Guess the number!</h2>
 
         {guesses && guesses.length > 0 && (
@@ -105,12 +105,14 @@ function App() {
             </button>
           </div>
         )}
-      </div>
+      </section>
 
-      <button onClick={() => setHowManySmileys((prev) => prev + 1)}>
-        😃<sup>😃</sup>
-      </button>
-      <h2>{smiley.repeat(Math.pow(howManySmileys, howManySmileys))}</h2>
+      <section>
+        <button onClick={() => setHowManySmileys((prev) => prev + 1)}>
+          😃<sup>😃</sup>
+        </button>
+        <h2>{smiley.repeat(Math.pow(howManySmileys, howManySmileys))}</h2>
+      </section>
     </main>
   );
 }
